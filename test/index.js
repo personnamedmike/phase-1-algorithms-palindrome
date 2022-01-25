@@ -18,4 +18,10 @@ describe("isPalindrome", () => {
   it("returns false for 'ab'", () => {
     expect(isPalindrome("ab")).to.be.false;
   });
+  it("returns false for 'john'", () => {
+    expect(isPalindrome("john")).to.be.false;
+  });
+  it("returns true for 'mom'", function () {
+    expect(isPalindrome("mom")).to.be.true;
+  });
 });
